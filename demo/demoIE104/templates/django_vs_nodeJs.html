@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="{% static 'chung.css' %}">
+<body>
+    <h2>
+
+        Django là gì?
+    </h2>
+    <p>Django là một khung công tác web Python đầy đủ mạnh mẽ được tải đầy đủ các tính năng xử lý tất cả các vấn đề phát
+        triển web phổ biến. Điều đó bao gồm xác thực người dùng và quản trị nội dung. Với những thứ nhàm chán đang diễn
+        ra, nhóm phát triển của bạn có thể tập trung vào những phần quan trọng, độc đáo của dự án và cung cấp một cấu
+        trúc MTV hoạt động nhanh chóng một cách đáng kinh ngạc.
+    </p>
+    <h2>
+
+        Node.js là gì?
+    </h2>
+    <p>Mặc dù nó được đóng gói với rất nhiều khung công tác, nhưng Node.js không phải là một - nó thực sự là một môi
+        trường thời gian chạy JavaScript, được xây dựng trên công cụ JavaScript của Chrome. Được tạo ra để viết các ứng
+        dụng phía máy chủ bằng JavaScript, Node.js là công nghệ được nhiều nhà phát triển lựa chọn. Họ khen ngợi Node.js
+        vì đã cho phép họ xây dựng các ứng dụng xử lý lưu lượng truy cập web rất tốt, vì có thư viện và cộng đồng tuyệt
+        vời, cũng như rất hữu ích khi tạo API
+    </p>
+
+    <h2>
+        Performance
+    </h2>
+    <p>Với việc JavaScript được sử dụng ở phía máy chủ cũng như phía trình duyệt, không cần phải chuyển đổi dữ liệu bổ
+        sung giữa giao diện người dùng và phụ trợ của ứng dụng. Trên hết, kiến trúc đơn luồng của Node.js làm cho nó
+        siêu hiệu quả trong việc cung cấp một lượng lớn dữ liệu đồng thời cho hầu như vô số kết nối. Ngoài ra, Node.js
+        thường xuyên được cập nhật, với việc tăng hiệu suất trong hầu hết mọi bản phát hành.
+        Python, ngôn ngữ lập trình mà khung Django được viết, có tiếng là chậm. Khi so sánh nó với JavaScript, mã Python
+        dường như có thời gian thực thi cao hơn, nhưng khi sử dụng cho mục đích thương mại, hiệu suất của ứng dụng
+        Django thường nằm trong sự mong đợi của người dùng. Nhưng ngay cả trong những trường hợp cực kỳ nghiêm trọng đối
+        với các ứng dụng Django cực kỳ phổ biến, vẫn có những cách (như triển khai Varnish) để tối ưu hóa mã Django, do
+        đó tốc độ của nó vẫn đạt yêu cầu.
+    </p>
+    <h2>
+        Khả năng mở rộng
+    </h2>
+    <p>
+        Trong Django, các nhà phát triển tạo ra từng chức năng một cách độc lập và sau đó tạo kết nối giữa chúng. Làm
+        như vậy giúp bạn thực sự dễ dàng triển khai và tinh chỉnh các tính năng mới mà không cần lo lắng về cách tích
+        hợp chúng với ứng dụng. Khung cũng có thể xử lý thành thạo lưu lượng truy cập lớn và lượng dữ liệu đáng kể, giúp
+        tất cả các ứng dụng sẵn sàng mở rộng ngay từ đầu.
+        Node.js là tất cả về khả năng mở rộng ứng dụng. Mô hình vòng lặp sự kiện đơn luồng của nó có khả năng xử lý thậm
+        chí cả triệu kết nối đồng thời. Với các công cụ mạnh mẽ như trình quản lý quy trình Cluster và PM2 đi kèm,
+        Node.js giúp bạn dễ dàng tối ưu hóa các ứng dụng web.
+
+    </p>
+
+
+    <img alt="Photo" src="{% static 'SosanhvsNodeJs.png' %}" />
+
+    <a class="gohome" href="/">Về trang chủ</a>
+</body>
+
+</html>

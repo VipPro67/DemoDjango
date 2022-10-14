@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="{% static 'chung.css' %}">
+
+<body>
+
+    <h2>Django giải quyết được vấn đề gì?</h2>
+    <ol>
+        <li>Django phát triển theo tư tưởng “Batteries included” (có thể hiểu là nó tích hợp toàn bộ, chỉ cần gọi ra là
+            có thể dùng). Developer không cần phải nghĩ phải dùng cái ở ngoài chỉ cần tập trung vào sản phẩm vì Django
+            đã cung cấp đầy đủ mọi thứ và tất cả đều hoạt động liền mạch với nhau.
+        </li>
+        <li>Django có thể xây dựng được hầu hết mọi loại website như hệ thống quản lý nội dung, mạng xã hội hay như các
+            web tin tức,… Nó có thể làm việc với framework client-side ( tức là việc render HTML, CSS sẽ được thực hiện
+            ở client) và chuyển đổi nội dung hầu hết các loại format (HTML, RESS, XML,…)
+        </li>
+        <li>Django rất coi trọng vấn đề bảo mật và giúp các nhà phát triển tránh được nhiều lỗi bảo mật phổ biến, chẳng
+            hạn như SQL injection, cross-site script, giả mạo yêu cầu cross-site và clickjacking. Hệ thống xác thực
+            người dùng của nó cung cấp một cách an toàn để quản lý tài khoản và mật khẩu của người dùng.
+        </li>
+        <p> Vd: Django cung cấp bảo mật quản lý tên tài khoản và mật khẩu, tránh các lỗi cơ bản để thông tin session lên
+            cookie, mã hóa mật khẩu thay vì lưu thẳng
+        </p>
+        <li> Django sử dụng shared-nothing architecture dựa vào component (mỗi phần kiến trúc độc lập với nhau, có thể
+            thay thế SDA nếu cần thiết). Có sự chia tách rõ ràng giữa các phần, nghĩa là nó có thể scale cho việc gia
+            tăng traffic bằng cách thêm phần cứng ở mỗi cấp độ: caching, servers, database servers, hoặc application
+            servers.
+        </li>
+        <li>Code Django được viết theo nguyên tắc DRY (Don’t Repeat Yourself) làm cho không có sự lặp lại không cần
+            thiết và pattern có thể khuyến khích ý tưởng bảo trì và tái sử dụng code.
+        </li>
+        <li>Django được viết bằng Python, nó có thể chạy trên đa nền tảng. Điều này có nghĩa là bạn không bị ràng buộc
+            bởi một platfrom server cụ thể. Django được hổ trợ tốt ở nhiều nhà cung cấp hosting, họ sẽ cung cấp hạ tầng
+            và tài liệu cụ thể cho hosting web Django
+
+        </li>
+    </ol>
+    <a class="gohome" href="/">Về trang chủ</a>
+</body>
+</html>
